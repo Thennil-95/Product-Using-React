@@ -1,0 +1,53 @@
+  .login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://img.freepik.com/free-photo/flat-lay-desktop-with-agenda-succulent-plant_23-2148430892.jpg?w=996&t=st=1701318659~exp=1701319259~hmac=534d0aa86cd09c44bed564828caa0776eb034050fd95408a2d83e51a44bb99bc')
+      no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container-1 {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  h2 {
+    color: #ff0000;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
