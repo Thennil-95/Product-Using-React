@@ -20,9 +20,16 @@ const Home = () => {
                             </Link>
                         </div>
                     </td>
+                    <td>
+                        <div className='button-container'>
+                            <Link to="/">
+                                <button className="button">Log Out</button>
+                            </Link>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
-                    <td colSpan="2" style={{ textAlign: 'center' }}>
+                    <td colSpan="3" style={{ textAlign: 'center' }}>
                         <List />
                     </td>
                 </tr>

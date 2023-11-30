@@ -44,6 +44,11 @@
     border: 2px solid;
   }
 
+  .button {
+    text-align: center;
+    background-color: red;
+  }
+
   .button-container {
     text-align: center;
   }
